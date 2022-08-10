@@ -1,0 +1,80 @@
+/* Hex codes:
+#3B4664 - screen bg
+#262C41 - display bg
+#333C51 - keypad bg
+#EAE3DB - buttons
+#8896B8 - DEL/RESET btn
+#D23E2F - Equal btn
+#fff - font//display//del&reset btn
+#000 - font btns
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #3b4664;
+}
+
+button {
+  background-color: #eae3db;
+  color: #000;
+  border: none;
+  margin: 10px;
+  padding: 20px 30px;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 8px;
+}
+
+button:hover {
+  color: #eae3db;
+  background-color: #262C41;
+}
+
+p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.keypad {
+  width: 400px;
+  background-color: #333C51;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.equalbtn {
+  background-color: #D23E2F;
+  color: #fff;
+}
+
+.delbtn {
+  background-color: #8896B8;
+  color: #fff;
+}
+
+.calculator {
+  background-color: #3b4664;
+  width: 400px;
+  margin: 100px auto;
+  border-radius: 10px;
+}
+
+.display {
+  background-color: #262c41;
+  margin-bottom: 20px;
+  text-align: right;
+  color: #fff;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+
+
